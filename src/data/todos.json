@@ -1,0 +1,38 @@
+[
+  {
+    "id": "a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6",
+    "title": "Buy groceries",
+    "description": "Milk, Bread, Eggs, Butter",
+    "completed": false
+  },
+  {
+    "id": "X",
+    "title": "Clean the house",
+    "description": "Vacuum, Dust, Mop",
+    "completed": false
+  },
+  {
+    "id": "g1h2i3j4-k5l6-7m8n-9o0p-q1r2s3t4u5v6",
+    "title": "Finish project report",
+    "description": "Complete the final report for the project",
+    "completed": false
+  },
+  {
+    "id": "h1i2j3k4-l5m6-7n8o-9p0q-r1s2t3u4v5w6",
+    "title": "Exercise",
+    "description": "Go for a run in the park",
+    "completed": false
+  },
+  {
+    "id": "i1j2k3l4-m5n6-7o8p-9q0r-s1t2u3v4w5x6",
+    "title": "Call mom",
+    "description": "Check in with mom and see how she's doing",
+    "completed": false
+  },
+  {
+    "id": "j1k2l3m4-n5o6-7p8q-9r0s-t1u2v3w4x5y6",
+    "title": "Software developer",
+    "description": "Review pull requests, fix a critical bug in the authentication module, and attend the daily standup meeting.",
+    "completed": false
+  }
+]

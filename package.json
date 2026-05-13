@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server:dev": "node src/server.ts",
+    "server:dev": "tsx src/server.ts",
     "server:start": "node dist/server.js",
     "build": "tsc",
+    "server:inspect": "DANGEROUSLY_OMIT_AUTH=true npx @modelcontextprotocol/inspector npm run server:dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,13 +17,19 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Poojan-Patel-Simform/MCP-Demo/issues"
   },
   "homepage": "https://github.com/Poojan-Patel-Simform/MCP-Demo#readme",
   "devDependencies": {
     "@types/node": "^25.7.0",
+    "tsx": "^4.21.0",
     "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "uuid": "^14.0.0",
+    "zod": "^3.25.76"
   }
 }
