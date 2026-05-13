@@ -28,6 +28,15 @@ server.registerTool(
   },
   async ({ title, description, completed }) => {
     try {
+      /**
+       * Creates a new todo item with the provided details.
+       *
+       * @param title - The title of the todo item.
+       * @param description - The description of the todo item.
+       * @param completed - The completion status of the todo item. Defaults to `false` if not provided.
+       * @returns A promise that resolves to the newly created {@link Todo} object.
+       * @throws Will throw an error if the todo creation fails.
+       */
       const todo = await createTodo({
         title,
         description,
@@ -103,6 +112,12 @@ server.registerResource(
   async (uri, { todoId }) => {
     try {
       const todos = await getAllTodos();
+      /**
+       * Finds a todo item from the todos array that matches the given todoId.
+       * @param todos - The array of todo items to search through.
+       * @param todoId - The unique identifier of the todo item to find.
+       * @returns The todo item that matches the given todoId, or `undefined` if not found.
+       */
       const todo = todos.find((t) => t.id === todoId);
 
       if (!todo) {
