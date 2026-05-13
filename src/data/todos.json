@@ -34,5 +34,17 @@
     "title": "Software developer",
     "description": "Review pull requests, fix a critical bug in the authentication module, and attend the daily standup meeting.",
     "completed": false
+  },
+  {
+    "id": "be01cf0a-51d9-4c59-bca6-dcf21e2b3fd3",
+    "title": "mcp",
+    "description": "Complete the mcp project by the end of the week",
+    "completed": false
+  },
+  {
+    "id": "f8cddcef-0da5-41db-91ba-c5b6b12e5575",
+    "title": "sdd",
+    "description": "sdd is better then vibe coding",
+    "completed": false
   }
 ]
