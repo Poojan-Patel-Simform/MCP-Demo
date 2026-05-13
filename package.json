@@ -1,0 +1,28 @@
+{
+  "name": "mcp-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server:dev": "node src/server.ts",
+    "server:start": "node dist/server.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Poojan-Patel-Simform/MCP-Demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Poojan-Patel-Simform/MCP-Demo/issues"
+  },
+  "homepage": "https://github.com/Poojan-Patel-Simform/MCP-Demo#readme",
+  "devDependencies": {
+    "@types/node": "^25.7.0",
+    "typescript": "^6.0.3"
+  }
+}
